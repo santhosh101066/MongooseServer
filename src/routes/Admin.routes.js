@@ -5,6 +5,7 @@ import AddNewProductController from "../controller/AddNewProduct.controller.js";
 
 const router = Router();
 const storage = multer({ dest: "./ProductImages/" });
+
 const upload = storage.fields([
   { name: "main_image", maxCount: 1 },
   { name: "other_image" },

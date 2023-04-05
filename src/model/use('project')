@@ -1,0 +1,3 @@
+use('project')
+
+db.users.reIndex()
